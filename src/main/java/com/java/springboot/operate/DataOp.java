@@ -3,9 +3,10 @@ package com.java.springboot.operate;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
+// import org.springframework.stereotype.Service;
 
-@Service
+@Component
 public class DataOp extends QuartzJobBean {
 
     @Override
